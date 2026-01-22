@@ -239,7 +239,7 @@ npm run dev
 ## 相关资源与教程 (Resources & Tutorials)
 
 *   **Vibe Coding 工程化流解说**: 深度解析本项目背后的 "Vibe Coding" 心流开发模式。  
-    [👉 点击查看飞书文档 (Feishu Doc)](INSERT_FEISHU_LINK_HERE)
+    [👉 点击查看飞书文档 (Feishu Doc)](https://dw9ipw7kh1c.feishu.cn/wiki/HsqiwuurAic9HVk2y6mcyPW9nkc?from=from_copylink)
 
 *   **项目全景解说视频**: 关于 FlashIdea 的设计初衷、技术选型与演示。  
     [👉 点击观看视频 (Youtube/Bilibili)](INSERT_VIDEO_LINK_HERE)
