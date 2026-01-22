@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="light">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>闪念速记 - AI 灵感捕捉与创作</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#5dbac0",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#151d1d",
+                        "accent-peach": "#FFB347",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "Noto Sans SC"],
+                        "sans": ["Noto Sans SC", "Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        body {
+            -webkit-tap-highlight-color: transparent;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .dark .glass-card {
+            background: rgba(21, 29, 29, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .spark-shadow {
+            box-shadow: 0 10px 25px -5px rgba(93, 186, 192, 0.2);
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen font-sans text-[#131616] dark:text-white overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

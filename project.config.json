@@ -1,0 +1,21 @@
+{
+    "api": {
+        "port": 3001,
+        "prefix": "/api"
+    },
+    "ai": {
+        "model": "gemini-2.5-flash",
+        "prompts": {
+            "transcribe": "请将这段语音内容转写成文字。只需返回转写后的文字内容。",
+            "refine": "请基于以下闪念灵感，一次性生成4篇不同风格的深度笔记（包括深度解析版、叙事故事版、多维分析版、精简摘要版）。灵感内容：",
+            "single": "基于核心灵感，生成一个独特的异构版本。要求风格鲜明，内容充实："
+        }
+    },
+    "supabase": {
+        "url": "https://nvhglqeiefjcfmglrtlv.supabase.co",
+        "key": "sb_secret_VGz2DOwizBE7FIYz7Cyaaw_tHzoYGcy"
+    },
+    "gemini": {
+        "apiKey": "AIzaSyCTwP_zCVX2i3SSsMc9yyAAHSYkU4UkGM8"
+    }
+}

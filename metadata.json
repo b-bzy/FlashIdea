@@ -1,0 +1,8 @@
+
+{
+  "name": "闪念速记 Flash Note",
+  "description": "一个AI驱动的灵感捕捉与创作协同工具，支持文字/语音速记及一键生成多版本爆款内容。",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
