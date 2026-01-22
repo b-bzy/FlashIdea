@@ -12,8 +12,8 @@
         }
     },
     "supabase": {
-        "url": "https://nvhglqeiefjcfmglrtlv.supabase.co",
-        "key": "sb_secret_VGz2DOwizBE7FIYz7Cyaaw_tHzoYGcy"
+        "url": "https://nvhglqeiefjcfmglrtv.supabase.co",
+        "key": "sb_secret_VGz2DOwizBE7FIYz7Caaw_tHzoYGcy"
     },
     "gemini": {
         "apiKey": "AIzaSyCTwP_zCVX2i3SSsMc9yyAAHSYkU4UkGM8"
