@@ -242,7 +242,7 @@ npm run dev
     [👉 点击查看飞书文档 (Feishu Doc)](https://dw9ipw7kh1c.feishu.cn/wiki/HsqiwuurAic9HVk2y6mcyPW9nkc?from=from_copylink)
 
 *   **项目全景解说视频**: 关于 FlashIdea 的设计初衷、技术选型与演示。  
-    [👉 点击观看视频 (Youtube/Bilibili)](INSERT_VIDEO_LINK_HERE)
+    [👉 点击观看视频 (Youtube/Bilibili)](https://youtu.be/i2-FGI7uhOM)
 
 ---
 
